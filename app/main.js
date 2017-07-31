@@ -45,5 +45,6 @@ require.config({
         // 'jquery': []
 
     },
-    deps: ['app']
+    deps: ['app'],
+    waitSeconds: 15
 });
