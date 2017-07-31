@@ -2,18 +2,18 @@
 
 require.config({
     paths: {
-        'angular': 'bower_components/angular/angular.min.js',
-        'angularAMD': 'bower_components/angularAMD/angularAMD.min.js',
-        'angular-ui-router': 'bower_components/angular-ui-router/release/angular-ui-router.min.js',
-        'showDown': 'bower_components/showdown/compressed/Showdown.min.js',
-        'angular-sanitize': 'bower_components/angular-sanitize/angular-sanitize.min.js',
+        'angular': 'bower_components/angular/angular.min',
+        'angularAMD': 'bower_components/angularAMD/angularAMD.min',
+        'angular-ui-router': 'bower_components/angular-ui-router/release/angular-ui-router.min',
+        'showDown': 'bower_components/showdown/compressed/Showdown.min',
+        'angular-sanitize': 'bower_components/angular-sanitize/angular-sanitize.min',
         'angular-markdown': 'bower_components/angular-markdown-directive/markdown',
         'angular-markdown-editor': 'bower_components/angular-markdown-editor-ghiscoding/src/angular-markdown-editor',
         'bootstrap': 'bower_components/bootstrap/dist/js/bootstrap.min',
-        'bootstrap-markdown': 'bower_components/bootstrap-markdown/js/bootstrap-markdown.js',
+        'bootstrap-markdown': 'bower_components/bootstrap-markdown/js/bootstrap-markdown',
         'marked': 'bower_components/marked/marked.min',
         'angular-marked': 'bower_components/angular-marked/dist/angular-marked.min',
-        'hljs': 'bower_components/highlight.js.origin/src/highlight.js',
+        'hljs': 'bower_components/highlight.js.origin/src/highlight',
         'angular-highlight': 'bower_components/angular-highlightjs/angular-highlightjs.min',
         'jquery': 'bower_components/jquery/dist/jquery.min'
     },
