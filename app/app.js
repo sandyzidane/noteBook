@@ -21,6 +21,13 @@ define([
                 controllerAs: 'ctrl'
             }));
     });
+    
+    app.config(function (markedProvider) {
+        markedProvider.setOptions({
+            gfm: true,
+            tables: true
+        })
+    });
 
     return angularAMD.bootstrap(app);
 });

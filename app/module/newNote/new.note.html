@@ -1,16 +1,35 @@
 <div class="container">
-    <h1>notebook example</h1>
+    <br>
     <div class="row">
         <div class="col-md-12">
             <div class="form-group">
-            <textarea 	name="editor1" class="content-box"
-                         ng-model="editor1"
-                         markdown-editor="{'iconlibrary': 'fa', addExtraButtons: true, resize: 'vertical'}"
-                         on-fullscreen="onFullScreenCallback()"
-                         on-fullscreen-exit="onFullScreenExitCallback()"
-                         rows="30" >
-					</textarea>
+                <div class="form-inline">
+                    <input class="form-control" placeholder="笔记标题" ng-model="title">
+                    <button class="btn btn-default" type="button">
+                        <em class="glyphicon glyphicon-ok"></em> 保存
+                    </button>
+                </div>
             </div>
+            <div class="form-group">
+                <textarea 	name="noteContentEditor" class="content-box"
+                             ng-model="noteContent"
+                             markdown-editor="{savable: true, hiddenButtons: 'Preview', addExtraButtons: true }"
+                             rows="20" style="width: 100%;height: 100%">
+                        </textarea>
+            </div>
+        </div>
+        <hr>
+        <h4>预览效果</h4>
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h5>{{title}}</h5>
+                </div>
+                <div class="panel-body">
+                    <div marked="parsedContent" class="markdown outline" style="width: 100%; height: 100%;"></div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
